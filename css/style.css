@@ -208,6 +208,91 @@ a{
   flex-grow: 1;
 }
 
+/* COLLECTION */
+
+.collection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+.collection-content{
+  position: relative;
+  background-color: #F8F8F2;
+  background-image: url("../img/collection-bg-img.jpg");
+  background-repeat: no-repeat;
+  padding: 50px 143px;
+}
+.collection-heading{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-size: 50px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.collection-list {
+  padding-left: 0;
+  margin: 0;
+}
+
+.collection-leafe-left{
+  position: absolute;
+  top: 40px;
+  left: -150px;
+  width: 402px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.collection-leaves-right{
+  position: absolute;
+  right: -250px;
+  top: 685px;
+}
+
+.collection-leafe-left-light{
+  position: absolute;
+  left: -216px;
+  bottom: 170px;
+}
+
+.collection-item {
+  display: flex;
+  align-items: center;
+}
+
+.collection-item:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.collection-img {
+  flex-shrink: 1;
+  width: 450px;
+  height: 375px;
+  object-fit: cover;
+}
+.collection-info-wrapper {
+  flex-grow: 1;
+  padding-left: 117px;
+  padding-right: 117px;
+}
+
+.collection-info-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.collection-info-desc {
+  margin: 0;
+  font-size: 18px;
+  line-height: 34px;
+}
+
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -216,5 +301,8 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-
+  .hero-wrapper {
+    background-image: url("../img/hero-wrapper.jpg");}
+    .collection-content{
+      background-image: url("../img/collection-bg-img.jpg");}
 }
