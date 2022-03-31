@@ -293,6 +293,73 @@ a{
   line-height: 34px;
 }
 
+/* PROPOSAL */
+
+
+.proposal-content {
+  padding: 50px 30px;
+  background: linear-gradient(#c99b67 0 77% , #fff 77% 100% );
+  background-image: url("../img/proposal-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+}
+
+.proposal-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: normal;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.proposal-text {
+  max-width: 580px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.proposal-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+  margin-left: -20px;
+}
+
+.proposal-item {
+  width: calc(100% / 3 - 20px);
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.proposal-img {
+  width: 433px;
+  height: 500px;
+  margin-bottom: 28px;
+  object-fit: cover;
+}
+
+.proposal-item-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 30px;
+  line-height: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.proposal-item-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 /* BACKGROUND-IMAGE FOR RETINA SCREENS */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -305,4 +372,4 @@ only screen and (                min-resolution: 2dppx) {
     background-image: url("../img/hero-wrapper.jpg");}
     .collection-content{
       background-image: url("../img/collection-bg-img.jpg");}
-}
+    }
