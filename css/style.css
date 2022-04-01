@@ -221,13 +221,14 @@ a{
 
 .collection {
   margin-bottom: 20px;
-  background-color: #fff;
+
 }
 .collection-content{
   position: relative;
   padding: 50px 143px;
   background-color: #F8F8F2;
-  background-image: url("../img/collection-bg-img.jpg") , url("../img/leaves-right-mix.svg");
+  background-image: url("../img/collection-bg-img.jpg") ;
+  overflow-x: hidden;
 }
 
 .collection-heading{
@@ -294,9 +295,10 @@ a{
 
 .collection-leaves-right{
   position: absolute;
+  right: -350px;
   top: 685px;
-  left: 80%;
 }
+
 
 .collection-leafe-left-light{
   position: absolute;
