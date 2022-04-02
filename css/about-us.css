@@ -1,11 +1,14 @@
 
 /* HERO */
 
+.about-hero-info-wrapper{
+  padding-right: 208px;
+}
+
 .about-hero-img{
   display: block;
   width: 710px;
   height: 596px;
-  object-fit: contain;
 }
 
 /* COMMITMENT */
