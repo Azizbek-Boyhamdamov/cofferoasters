@@ -1,3 +1,15 @@
+
+/* HERO */
+
+.about-hero-img{
+  display: block;
+  width: 710px;
+  height: 596px;
+  object-fit: contain;
+}
+
+/* COMMITMENT */
+
 .commitment{
   margin-bottom: 160px;
 }
