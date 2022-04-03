@@ -169,3 +169,20 @@
   padding-right: 55px;
   background-color: #fff;
 }
+
+/* BACKGROUND-IMAGE FOR RETINA SCREENS */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .commitment-inner {
+    background-image: url("../img/commitment@2x.jpg")
+  }
+
+.about-proposal-content {
+  background-image: url("../img/about-proposal@2x.jpg");
+}
+}
