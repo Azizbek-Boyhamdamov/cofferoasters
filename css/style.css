@@ -2,6 +2,7 @@
 :root{
   --main-text-color:#000;
   --accent-color: #0A775F;
+  --light-green-color:#F8F8F2;
   --accent-color-green-80:rgba(10, 119, 95, 0.8);
   --accent-color-green-60:rgba(10, 119, 95, 0.6);
   --hero-bg-color:#F3D7B7;
@@ -226,7 +227,7 @@ a{
 .collection-content{
   position: relative;
   padding: 50px 143px;
-  background-color: #F8F8F2;
+  background-color: var(--light-green-color);
   background-image: url("../img/collection-bg-img.jpg") ;
   overflow-x: hidden;
 }
@@ -399,7 +400,6 @@ a{
   margin-bottom: 80px;
   font-size: 50px;
   line-height: normal;
-  text-align: center;
   text-transform: uppercase;
   color: #fff;
 }
@@ -430,7 +430,7 @@ a{
   height: 60px;
   border: 4px solid #C99B67;
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: var(--light-green-color);
   text-align: right;
   content: "";
 }
@@ -500,7 +500,7 @@ a{
   padding-top: 65px;
   padding-bottom: 65px;
   background-color: var(--hero-bg-color);
-  background-image: url("../img/footer-bg-img.jpg");
+  background-image: url("../img/hero-wrapper.jpg");
 }
 .footer-container {
   display: flex;
@@ -567,6 +567,6 @@ only screen and (                min-resolution: 2dppx) {
     background-image: url("../img/manual-bg-img@2x.jpg");
   }
   .site-footer {
-    background-image: url("../img/footer-bg-img@2x.jpg");
+    background-image: url("../img/hero-wrapper@2x.jpg");
   }
 }

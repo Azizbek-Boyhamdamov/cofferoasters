@@ -3,7 +3,7 @@
 }
 
 .detailed-info-wrapper{
-  background-color: #F8F8F2;
+  background-color: #f8f8f8;
   background-image: url("../img/collection-bg-img.jpg")
 }
 
@@ -55,7 +55,7 @@
 }
 .preferrence-quizes-heading {
   margin: 0;
-  font-size: 47px;
+  font-size: 40px;
   line-height: 1.2;
   font-variant: small-caps;
   color: var(--main-text-color);
@@ -64,7 +64,7 @@
 .drop-down {
   border: 0;
   margin-left: 44px;
-  background-color: #f8f8f8;
+  background-color:#f8f8f8;
 }
 .drop-down-img {
   width: 40px;
@@ -80,9 +80,11 @@
   margin: 0;
   margin-left: -18px;
 }
+
 .prefference-quizes-list:not(:last-child){
   margin-bottom: 60px;
 }
+
 .prefference-quizes-list:last-child{
   margin-bottom: 100px;
 }
@@ -93,10 +95,12 @@
   flex-grow: 1;
   background-color: rgba(10, 119, 95 ,0.2);
 }
+
 .preferrene-quizes-item:active{
   background-color: rgb(10, 119, 95);
   color: #fff;
 }
+
 .preferrence-quizes-content {
   display: flex;
   flex-direction: column;
@@ -106,6 +110,7 @@
   padding-bottom: 56px;
   padding-right: 16px;
 }
+
 .preferrence-quizes-title {
   font-weight: 500;
   font-size: 24px;
@@ -114,6 +119,7 @@
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .preferrence-quizes-desc {
   margin: 0;
   font-weight: 400;
