@@ -729,46 +729,26 @@ a{
 }
 
 
-/* CREAT-PLAN */
-
-.detailed-info {
-  margin-top: 20px;
-}
-
-.detailed-info-wrapper{
-  background-color: #f8f8f8;
-  background-image: url("../img/collection-bg-img.jpg")
-}
-
-
-.preferrences{
-  padding-top: 50px;
-  padding-right: 124px;
-  padding-bottom: 50px;
-  padding-left: 30px;
-  background-image:  url("../img/leavest-leafe.svg"), url("../img/leaves-right-mix.svg"), url("../img/leaves-left-light.svg");
-  background-repeat:  no-repeat , no-repeat, no-repeat;
-  background-size: 371px, 546px 592px , 314px 217px ;
-  background-position: left -15% top 40% , top 200px right -43%, left -15% bottom 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-}
-
 /* NEW-PLAN */
 
 
 .new-plan {
   margin-top: 20px;
 }
-
 .new-plan-container{
+  background-color: var(--light-green-color);
+  background-image: url("../img/detailed-info-bg.jpg");
+
+}
+.new-plan-content{
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 144px;
   padding-left: 30px;
-  background-color: var(--light-green-color);
-  background-image: url("../img/detailed-info-bg.jpg");
+  background-image:  url("../img/leavest-leafe.svg"), url("../img/leaves-right-mix.svg"), url("../img/leaves-left-light.svg");
+  background-repeat:  no-repeat , no-repeat, no-repeat;
+  background-size: 371px, 546px 592px , 314px 217px ;
+  background-position: left -15% top 40% , top 200px right -43%, left -15% bottom 10%;
   display: flex;
 }
 

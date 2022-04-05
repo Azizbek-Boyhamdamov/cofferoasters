@@ -100,244 +100,246 @@
 
       <div class="container">
         <div class="new-plan-container ">
-          <h2 class="visually-hidden">Creat new plan</h2>
-          <!-- NEW-PLAN-STEPS -->
-          <ol class="new-plan-steps">
-            <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">01 Preferences</a></li>
-            <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">02 Bean Type</a></li>
-            <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">03 Quantity</a></li>
-            <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">04 Grind Option</a></li>
-            <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">05 Deliveries</a></li>
-          </ol>
-          <!-- NEW-PLAN-FORM -->
-          <form class="new-plan-form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="new-plan-content">
+            <h2 class="visually-hidden">Creat new plan</h2>
+            <!-- NEW-PLAN-STEPS -->
+            <ol class="new-plan-steps">
+              <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">01 Preferences</a></li>
+              <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">02 Bean Type</a></li>
+              <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">03 Quantity</a></li>
+              <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">04 Grind Option</a></li>
+              <li class="new-plan-steps-item"><a class="new-plan-steps-link" href="#">05 Deliveries</a></li>
+            </ol>
+            <!-- NEW-PLAN-FORM -->
+            <form class="new-plan-form" action="https://echo.htmlacademy.ru" method="post">
+              <div class="new-plan-inner">
+                <section class="new-plan-form-group">
+                  <header class="form-group-header">
+                    <h3 class="form-group-heading">how do you drink your coffee?</h3>
+                    <button class="form-group-toggler" type="button">
+                      <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
+                        height="11">
+                    </button>
+                  </header>
+                  <div class="form-group-inner">
+                    <ul class="form-group__radio-list">
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input  class="custom-radio__input visually-hidden" type="radio" name="preferrences" value="capsule">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Capsule</span>
+                            <span class="custom-radio__info">Compatible with Nespresso systems and similar brewers</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input checked class="custom-radio__input visually-hidden" type="radio" name="preferrences" value="filter">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Filter</span>
+                            <span class="custom-radio__info">For pour over or drip methods like Aeropress, Chemex, and
+                              V60</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input class="custom-radio__input visually-hidden" type="radio" name="preferrences" value="espresso">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Espresso</span>
+                            <span class="custom-radio__info">Dense and finely ground beans for an intense, flavorful
+                              experience</span>
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
 
-            <div class="new-plan-inner">
-              <section class="new-plan-form-group">
-                <header class="form-group-header">
-                  <h3 class="form-group-heading">how do you drink your coffee?</h3>
-                  <button class="form-group-toggler" type="button">
-                    <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
-                      height="11">
-                  </button>
-                </header>
-                <div class="form-group-inner">
-                  <ul class="form-group__radio-list">
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input  class="custom-radio__input visually-hidden" type="radio" name="preferrences" value="capsule">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Capsule</span>
-                          <span class="custom-radio__info">Compatible with Nespresso systems and similar brewers</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input checked class="custom-radio__input visually-hidden" type="radio" name="preferrences" value="filter">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Filter</span>
-                          <span class="custom-radio__info">For pour over or drip methods like Aeropress, Chemex, and
-                            V60</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input class="custom-radio__input visually-hidden" type="radio" name="preferrences" value="espresso">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Espresso</span>
-                          <span class="custom-radio__info">Dense and finely ground beans for an intense, flavorful
-                            experience</span>
-                        </span>
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
+              <div class="new-plan-inner">
+                <section class="new-plan-form-group">
+                  <header class="form-group-header">
+                    <h3 class="form-group-heading">what type of coffee?</h3>
+                    <button class="form-group-toggler" type="button">
+                      <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
+                        height="11">
+                    </button>
+                  </header>
+                  <div class="form-group-inner">
+                    <ul class="form-group__radio-list">
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input  class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="single origin">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">single origin</span>
+                            <span class="custom-radio__info">Distinct, high quality coffee from a specific family-owned farm</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input checked class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="decaf">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">decaf</span>
+                            <span class="custom-radio__info">Just like regular coffee, except the caffeine has been removed </span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="blended">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Blended</span>
+                            <span class="custom-radio__info">Combination of two or three dark roasted beans of organic coffees</span>
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
 
-            <div class="new-plan-inner">
-              <section class="new-plan-form-group">
-                <header class="form-group-header">
-                  <h3 class="form-group-heading">what type of coffee?</h3>
-                  <button class="form-group-toggler" type="button">
-                    <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
-                      height="11">
-                  </button>
-                </header>
-                <div class="form-group-inner">
-                  <ul class="form-group__radio-list">
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input  class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="single origin">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">single origin</span>
-                          <span class="custom-radio__info">Distinct, high quality coffee from a specific family-owned farm</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input checked class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="decaf">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">decaf</span>
-                          <span class="custom-radio__info">Just like regular coffee, except the caffeine has been removed </span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="blended">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Blended</span>
-                          <span class="custom-radio__info">Combination of two or three dark roasted beans of organic coffees</span>
-                        </span>
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
+              <div class="new-plan-inner">
+                <section class="new-plan-form-group">
+                  <header class="form-group-header">
+                    <h3 class="form-group-heading">how much would you like?</h3>
+                    <button class="form-group-toggler" type="button">
+                      <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
+                        height="11">
+                    </button>
+                  </header>
+                  <div class="form-group-inner">
+                    <ul class="form-group__radio-list">
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input checked class="custom-radio__input visually-hidden" type="radio" name="quantity" value="250g">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">250g</span>
+                            <span class="custom-radio__info">Perfect for the solo drinker. Yields about 12 delicious cups.</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input  class="custom-radio__input visually-hidden" type="radio" name="quantity" value="500g">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">500g</span>
+                            <span class="custom-radio__info">Perfect option for a couple. Yields about 40 delectable cups.</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input class="custom-radio__input visually-hidden" type="radio" name="quantity" value="1000g">
+                          <span class="custom-radio-control" >
+                            <span class="custom-radio__title">1000g</span>
+                            <span class="custom-radio__info">Perfect for offices and events. Yields about 90 delightful cups.</span>
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
 
-            <div class="new-plan-inner">
-              <section class="new-plan-form-group">
-                <header class="form-group-header">
-                  <h3 class="form-group-heading">how much would you like?</h3>
-                  <button class="form-group-toggler" type="button">
-                    <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
-                      height="11">
-                  </button>
-                </header>
-                <div class="form-group-inner">
-                  <ul class="form-group__radio-list">
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input checked class="custom-radio__input visually-hidden" type="radio" name="quantity" value="250g">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">250g</span>
-                          <span class="custom-radio__info">Perfect for the solo drinker. Yields about 12 delicious cups.</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input  class="custom-radio__input visually-hidden" type="radio" name="quantity" value="500g">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">500g</span>
-                          <span class="custom-radio__info">Perfect option for a couple. Yields about 40 delectable cups.</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input class="custom-radio__input visually-hidden" type="radio" name="quantity" value="1000g">
-                        <span class="custom-radio-control" >
-                          <span class="custom-radio__title">1000g</span>
-                          <span class="custom-radio__info">Perfect for offices and events. Yields about 90 delightful cups.</span>
-                        </span>
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
+              <div class="new-plan-inner">
+                <section class="new-plan-form-group">
+                  <header class="form-group-header">
+                    <h3 class="form-group-heading">Want us to grind them?</h3>
+                    <button class="form-group-toggler" type="button">
+                      <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
+                        height="11">
+                    </button>
+                  </header>
+                  <div class="form-group-inner">
+                    <ul class="form-group__radio-list">
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input class="custom-radio__input visually-hidden" type="radio" name="grind" value="wholebean">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Wholebean</span>
+                            <span class="custom-radio__info">Best choice if you cherish the full sensory experience</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input  class="custom-radio__input visually-hidden" type="radio" name="grind" value="filter">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Filter</span>
+                            <span class="custom-radio__info">For drip or pour-over coffee methods such as V60 or Aeropress</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input checked  class="custom-radio__input visually-hidden" type="radio" name="grind" value="cafetiére">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Cafetiére</span>
+                            <span class="custom-radio__info">Course ground beans specially suited for french press coffee</span>
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
 
-            <div class="new-plan-inner">
-              <section class="new-plan-form-group">
-                <header class="form-group-header">
-                  <h3 class="form-group-heading">Want us to grind them?</h3>
-                  <button class="form-group-toggler" type="button">
-                    <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
-                      height="11">
-                  </button>
-                </header>
-                <div class="form-group-inner">
-                  <ul class="form-group__radio-list">
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input class="custom-radio__input visually-hidden" type="radio" name="grind" value="wholebean">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Wholebean</span>
-                          <span class="custom-radio__info">Best choice if you cherish the full sensory experience</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input  class="custom-radio__input visually-hidden" type="radio" name="grind" value="filter">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Filter</span>
-                          <span class="custom-radio__info">For drip or pour-over coffee methods such as V60 or Aeropress</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input checked  class="custom-radio__input visually-hidden" type="radio" name="grind" value="cafetiére">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Cafetiére</span>
-                          <span class="custom-radio__info">Course ground beans specially suited for french press coffee</span>
-                        </span>
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
 
-            <div class="new-plan-inner">
-              <section class="new-plan-form-group">
-                <header class="form-group-header">
-                  <h3 class="form-group-heading">how often should we deliver?</h3>
-                  <button class="form-group-toggler" type="button">
-                    <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
-                      height="11">
-                  </button>
-                </header>
-                <div class="form-group-inner">
-                  <ul class="form-group__radio-list">
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input checked class="custom-radio__input visually-hidden" type="radio" name="delivery" value="weekly">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">every week</span>
-                          <span class="custom-radio__info">$7.20 per shipment. Includes free first-class shipping.</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input  class="custom-radio__input visually-hidden" type="radio" name="delivery" value="biweekly">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Every 2 weeks</span>
-                          <span class="custom-radio__info">$9.60 per shipment. Includes free priority shipping.</span>
-                        </span>
-                      </label>
-                    </li>
-                    <li class="form-group__radio-item">
-                      <label class="custom-radio">
-                        <input  class="custom-radio__input visually-hidden" type="radio" name="delivery" value="monthly">
-                        <span class="custom-radio-control">
-                          <span class="custom-radio__title">Every month</span>
-                          <span class="custom-radio__info">$12.00 per shipment. Includes free priority shipping.</span>
-                        </span>
-                      </label>
-                    </li>
-                  </ul>
-                </div>
-              </section>
-            </div>
+              <div class="new-plan-inner">
+                <section class="new-plan-form-group">
+                  <header class="form-group-header">
+                    <h3 class="form-group-heading">how often should we deliver?</h3>
+                    <button class="form-group-toggler" type="button">
+                      <img class="form-group__toggler-icon" src="./img/toggler-down.svg" alt="drop-down" width="18"
+                        height="11">
+                    </button>
+                  </header>
+                  <div class="form-group-inner">
+                    <ul class="form-group__radio-list">
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input checked class="custom-radio__input visually-hidden" type="radio" name="delivery" value="weekly">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">every week</span>
+                            <span class="custom-radio__info">$7.20 per shipment. Includes free first-class shipping.</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input  class="custom-radio__input visually-hidden" type="radio" name="delivery" value="biweekly">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Every 2 weeks</span>
+                            <span class="custom-radio__info">$9.60 per shipment. Includes free priority shipping.</span>
+                          </span>
+                        </label>
+                      </li>
+                      <li class="form-group__radio-item">
+                        <label class="custom-radio">
+                          <input  class="custom-radio__input visually-hidden" type="radio" name="delivery" value="monthly">
+                          <span class="custom-radio-control">
+                            <span class="custom-radio__title">Every month</span>
+                            <span class="custom-radio__info">$12.00 per shipment. Includes free priority shipping.</span>
+                          </span>
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
 
-            <div class="order-simmary">
-              <dl class="definition-list">
-                <dt class="order-definition-term">Order Summary</dt>
-                <dd class="order-definition">“I drink my coffee as <span class="selected-options">Filter</span>, with a <span class="selected-options">Decaf</span> type of bean. <span class="selected-options">250g</span> ground ala <span class="selected-options">Cafetiére</span>, sent to me <span class="selected-options">Every Week</span>.”</dd>
-              </dl>
-              <button type="submit"class="button button-green">Create me plan</button>
-            </div>
-          </form>
-        </div>
+              <div class="order-simmary">
+                <dl class="definition-list">
+                  <dt class="order-definition-term">Order Summary</dt>
+                  <dd class="order-definition">“I drink my coffee as <span class="selected-options">Filter</span>, with a <span class="selected-options">Decaf</span> type of bean. <span class="selected-options">250g</span> ground ala <span class="selected-options">Cafetiére</span>, sent to me <span class="selected-options">Every Week</span>.”</dd>
+                </dl>
+                <button type="submit"class="button button-green">Create me plan</button>
+              </div>
+            </form>
+                    </div>
+          </div>
       </div>
     </section>
 
