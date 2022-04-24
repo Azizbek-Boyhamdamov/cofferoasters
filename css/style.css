@@ -737,8 +737,7 @@ a{
 }
 .new-plan-container{
   background-color: var(--light-green-color);
-  background-image: url("../img/detailed-info-bg.jpg");
-
+  background-image: url("../img/collection-bg-img.jpg");
 }
 .new-plan-content{
   padding-top: 50px;
